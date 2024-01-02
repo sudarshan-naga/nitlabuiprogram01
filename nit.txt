@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX</title>
+    <style>
+        #header{
+            display: grid; 
+            grid-template-columns: auto;
+
+            border: 3px solid black;
+            color:brown;
+            width: 100%;
+            height: 150px;
+            background-color: aqua;
+           
+        }
+       #B{
+        grid-template-columns: auto;
+        color:red;
+        left:100px;
+
+        }
+        #C{
+position: relative;
+            color:white;
+            background-color:red;
+            padding:10px;
+            border:3px solid red;
+            width:90px;
+            left:1300px;
+            top:-70px;
+            font-weight: 100px;
+            
+        }
+       #D{
+        height: 40px;
+        width: 100px;
+        text-align: center;
+        position: relative;
+        left: 1500px ;
+        top: -130px;
+           }
+        #E{
+        
+            width: 300px;
+            height: 200px;
+        }
+        #F{
+            width: 320px;
+            height: 200px; 
+        }
+        #G{
+            width: 320px;
+            height: 200px; 
+        }
+        #H{
+            width: 320px;
+            height: 200px; 
+        }
+        #I{
+            width: 320px;
+            height: 200px; 
+        }
+        #J{
+            border:2px solid wheat;
+
+        }
+        #K{
+            width: 316px;
+            height: 200px;  
+        }
+        #L{
+            width: 320px;
+            height: 200px; 
+        }
+        #M{
+            width: 316px;
+            height: 200px; 
+        }
+        #N{
+            width: 316px;
+            height: 200px; 
+        }
+        #O{
+            
+            width: 316px;
+            height: 200px; 
+        }
+        #Z{
+            color:antiquewhite;
+        }
+        #z{
+            position: relative;
+            left:1000px;
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+   <div style="background-color:wheat" id="header">
+        <h1  id="A">NETFLIX</h1>
+        <div id="B">UNLIMITED TV SHOWS & MOVIES</div>
+        <p id="C">JOIN NOW</p>
+       <button id="D" ><a href="login1.html">sign in</a></button> 
+</div>
+
+    <div>
+        <h1 id="Z">Only on Netflix</h1>
+        <p style="color: whitesmoke;"> Netflix is the home of amazing orginal programming that you can't<br>
+            find anywhere ele.Movies,Tv shows,specials and more,all tailored<br>specially to you
+        </p>
+        <h2 style="color: antiquewhite;">Crime Tv Dramas</h2>
+        <div id="J">
+        <a href="Nit.html"><img src="/public/Frontend/movie1.jpeg"  id="E" ></a>
+            <img src="/public/Frontend/chapo.jpeg" id="F">
+            <img src="/public/Frontend/Lucifer1.jpeg" id="G">
+            <img src="/public/Frontend/peaky blenders.jpeg" id="H">
+            <img src="/public/Frontend/gulams.jpeg" id="I">
+        </div>
+    </div>
+    <footer>
+        <h2 style="color: antiquewhite;">K Dramas</h2>
+        <img src="/public/Frontend/sweet.jpeg" id="K">
+        <img src="/public/Frontend/head on shoulder.jpeg" id="L">
+        <img src="/public/Frontend/squad.jpeg" id="M">
+        <img src="/public/Frontend/Movie (2).jpeg" id="N">
+        <img src="/public/Frontend/Movie(4).jpeg" id="O">
+    </footer>
+    <button id="z"><a href="login.html">sign</a></button> 
+</body>
+</html>
